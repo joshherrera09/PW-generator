@@ -1,13 +1,45 @@
-// prompts to gather user info
-alert("Please help us generate your password. Choose between 8-128 characters in length, and choose at least one of the character types")
-var passLength = prompt("How many characters would you like your pasword to be? 8-128 characters");
-var lowercase = confirm("Would you like to use lower case letters?");
-var uppercase = confirm("Would you like to use upperacse letters?");
-var numeric = confirm("Would you like to use numbers?");
-var specialChar = confirm("Would you like to use special characters? ex: ! $ # _ etc.");
+alert("Hello, please help us generate your password")
+var passLength = parseInt(prompt("Please enter a number 8-128, to determine the length of your password")
+var upperCaseLet = 
 
 
-function generate() {
+
+// Assignment Code
+var generateBtn = document.querySelector("#generate");
+
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+
+  passwordText.value = password;
 
 }
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+
+
+//generate password
+
+generateBtn.addEventListener("click", writepassword);
+
+function generatePassword() {
+    var lowerCaseLetters = ();
+    var upperCaseLetters = ();
+    var specialChar =();
+    
+    var passLength = 0;
+
+    var password = ""
+
+    for var i=0; i < passLength; i++) {
+        var xletter = Math.floor(Math.random() * lowerCaseLetters.length);
+        generatePassword += lowerCaseLetters.substring(xletter, xletter+1);
+    }
+    document.getElementsByTagName('textarea')[0].value = '#password'
+
+}
+
+
 
