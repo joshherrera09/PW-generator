@@ -1,2 +1,0 @@
-# PW-generator
-Password Generator
