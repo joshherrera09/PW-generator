@@ -28,8 +28,17 @@ I used a for loop to continue this process until the desired password length was
 
 <img width="681" alt="Screen Shot 2020-07-21 at 4 24 17 PM" src="https://user-images.githubusercontent.com/61304861/88117083-01c94f00-cb6f-11ea-92cb-099fd27559b9.png">
 
-### Link 
+## Screenshot of Application
+
+![image](https://user-images.githubusercontent.com/61304861/91205890-24450f80-e6bb-11ea-91fc-b9a67f75114e.png)
+
+
+## Link 
 
 https://joshherrera09.github.io/PW-generator/
+
+## Contact Information
+
+Email: joshherrera09@gmail.com
 
 
